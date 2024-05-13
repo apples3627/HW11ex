@@ -1,0 +1,30 @@
+#include <iostream>
+#include <fstream>
+#include "cla.h"
+#include "cla.cpp"
+using namespace std;
+
+int main(){
+    cla ak(5,10,2,3,-5,0.1,10);
+    cla am(7,100,-3.5,4,100,10,15);
+    cla an(12,17,0.01,0.2,1.5,0.08,20);
+    cla as(10,20,4.2,-5.3,2.1,0.2,5);
+    
+    ak.f0("akalisol2.dat");
+    ak.f1();
+    ak.f2();
+    am.f0("amumusol2.dat");
+    am.f1();
+    am.f2();
+    an.f0("anniesol2.dat");
+    an.f1();
+    an.f2();
+    as.f0("ashesol2.dat");
+    as.f1();
+    as.f2();
+
+
+
+    return 0;
+
+}
