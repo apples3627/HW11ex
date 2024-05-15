@@ -1,7 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include "cla.h"
-#include "cla.cpp"
+//#include "cla.cpp"
 using namespace std;
 
 int main(){
